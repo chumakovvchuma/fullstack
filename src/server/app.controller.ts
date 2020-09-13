@@ -13,7 +13,7 @@ import { JwtAuthGuard } from './auth/jwt-auth.guard';
   }
 
 @UseGuards(JwtAuthGuard)
-  @Get('profile')}
+  @Get('profile')
   getProfile(@Request() req) {
     return req.user;
   }

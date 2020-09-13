@@ -15,12 +15,16 @@ export class User {
   @Column({
         type: "enum",
         enum: UserRole,
-        default: UserRole
+        default: UserRole,
     })
-    role: UserRole
+    role: UserRole;
 
   @Column({ default: true })
   isActive: boolean;
   
-  @OneToMany(type => Post,  => post.user)
-  posts: Post[];
+ @Column()
+  public password: string;
+
+  @OneToMany(type => Post, post => post)
+ 	 post: Post[];
+}
