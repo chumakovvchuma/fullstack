@@ -161,6 +161,11 @@
         "signature": "d2f31f19e1ba6ed59be9259d660a239d9a3fcbbc8e038c6b2009bde34b175fed",
         "affectsGlobalScope": false
       },
+      "./src/client/App.tsx": {
+        "version": "1f4c23ad877104e3c5266c1bde2d8b21ac89486cc0437295cabdb63f269970bc",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
       "./node_modules/reflect-metadata/index.d.ts": {
         "version": "8d6d51a5118d000ed3bfe6e1dd1335bebfff3fef23cd2af2f84a24d30f90cc90",
         "signature": "8d6d51a5118d000ed3bfe6e1dd1335bebfff3fef23cd2af2f84a24d30f90cc90",
@@ -5139,6 +5144,13 @@
         "./node_modules/@types/node/ts3.4/util.d.ts"
       ],
       "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "./node_modules/@types/graceful-fs/index.d.ts",
+        "./node_modules/@types/node/ts3.1/fs.d.ts",
+        "./node_modules/@types/node/ts3.1/util.d.ts",
+        "./node_modules/@types/node/ts3.4/fs.d.ts",
+        "./node_modules/@types/node/ts3.4/util.d.ts"
+      ],
+      "./src/client/App.tsx": [
         "./node_modules/@types/graceful-fs/index.d.ts",
         "./node_modules/@types/node/ts3.1/fs.d.ts",
         "./node_modules/@types/node/ts3.1/util.d.ts",
